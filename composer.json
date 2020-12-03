@@ -1,0 +1,20 @@
+{
+    "name": "plin2k/dbchecker",
+    "description": "Database comparison",
+    "type": "library",
+    "license": "MIT",
+    "homepage": "http://dbchecker.plin2k.org/",
+    "authors": [
+        {
+            "name": "plin2k",
+            "email": "pew@plin2k.org"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Plin2k\\DBChecker\\": "src/"
+        }
+    },
+    "require": {}
+}
