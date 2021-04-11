@@ -1,2 +1,5 @@
 # dbchecker
-Database comparison
+
+Database comparison!
+
+composer require plin2k/dbchecker
