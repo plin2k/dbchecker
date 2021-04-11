@@ -7,14 +7,26 @@
     "authors": [
         {
             "name": "plin2k",
-            "email": "pew@plin2k.org"
+            "email": "admin@plin2k.org"
         }
     ],
-    "minimum-stability": "dev",
+    "keywords": [
+        "laravel",
+        "database",
+        "checker",
+        "dbchecker",
+        "comparison",
+        "database comparison",
+        "mysql"
+    ],
+    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
             "Plin2k\\DBChecker\\": "src/"
         }
     },
-    "require": {}
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": ">=4.0"
+    }
 }
